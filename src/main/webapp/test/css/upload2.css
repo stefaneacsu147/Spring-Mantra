@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Megrim|Roboto+Slab');
+
+body {
+    background: url('http://static.simpledesktops.com/uploads/desktops/2011/07/07/Safari_Desktop_Picture.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.container {
+	color: #0278AE;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 80px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+.display-3 {
+	color: #fff;
+	padding-top: 160px;
+	font-family: Roboto-Slab, serif;
+}
+
+.lead {
+	color: #fff;
+	font-family: Roboto, serif;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.nav.navbar-expand-lg.navbar-dark.bg-dark.fixed-top {
+	color: #0278AE;
+}
+
+nav.bg-dark {
+	background-color: #0D7377 !important;
+}
+
+a.navbar-brand {
+	font-family: Megrim, serif;
+	font-weight: 700;
+}
+
+.nav-link {
+  font-family: Roboto-Slab, sans-serif;
+  font-size: 1.05em;
+  line-height: 2em;
+  letter-spacing: .02em;
+}

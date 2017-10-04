@@ -1,0 +1,3 @@
+describe('AdoptaUnGrecComponent Tests', () => {
+
+});

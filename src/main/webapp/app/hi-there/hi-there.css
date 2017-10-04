@@ -1,0 +1,127 @@
+/* hi-there.css */
+@import url('https://fonts.googleapis.com/css?family=Megrim|Roboto+Slab');
+
+.jumbotron.text-center{
+    background: url('http://static.simpledesktops.com/uploads/desktops/2016/08/11/Glasgow.png') no-repeat fixed !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.container {
+	color: #0278AE;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  line-height: 60px;
+  background-color: #f5f5f5;
+}
+
+.display-3 {
+	color: #fff;
+	font-family: Roboto-Slab, serif;
+  margin-bottom: 5px;
+}
+
+.lead {
+	color: #fff;
+	font-family: Roboto, serif;
+  margin-bottom: 80px;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+    margin-bottom: 80px;
+}
+
+.nav.navbar-expand-lg.navbar-dark.bg-dark.fixed-top {
+	color: #0278AE;
+}
+
+nav.bg-dark {
+	background-color: #0D7377 !important;
+}
+
+a.navbar-brand {
+	font-family: Megrim, serif;
+	font-weight: 700;
+}
+
+.nav-link {
+  font-family: Roboto-Slab, sans-serif;
+  font-size: 1.05em;
+  line-height: 2em;
+  letter-spacing: .02em;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #0D7377 !important;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+h1 {
+font-family: sans-serif;
+text-align: center;
+font-size: 2em;
+color :#ff5847;
+margin: 30px 0;
+}
+
+span {
+background-color: #373740;
+border-radius: 4px;
+font-weight: 700;
+color: #FFF;
+font-size: .85em;
+letter-spacing: 4px;
+text-decoration: none;
+font-family: sans-serif;
+text-align: center;
+width: 260px;
+padding: 20px 0;
+cursor: pointer;
+display: block;
+margin: 0 auto;
+transition: background-color 150ms ease-in;
+}
+
+span:hover {
+background-color: #ff5847;
+}
+
+input[type=checkbox]:checked + span {
+background: #ff5847 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAX9JREFUeNpi+P//PwMNsS4QbwBiLnQ5WlqqAsRP/0PARiBmoYfFkkB8+z8qWALEjLS0mB+IL/3HDibSymJQXB7/jx/UgNSCvU4lwAbEG4DYkwi1WUxUspQZiOcRaSkIWOAKMk0Sg3jaf+IBOIVjMyQWiH8DsR+RljaTYOkBWJ5GNwRk2R+ooh9A7ETA0jwSLL0ATfEYqRpkyVc0xR+A2AyHpdFA/I9IS0F5WhRbAWIEtQQbeAXE6lhC5jeRlj4GYgVsRaYK1HBCmmWgmuyxhAwu8BpaXjNgs/gYkYbcAGIXPCGDDkCOM8eVPkCEFhE+JhX8BGJnfAkTxgC57BOVLAXlihBC2RA9Vf+k0FJQKk8nJv+jCwQi5WNyQAWxpR02wRQS8icy6CKlmMUlUUGipfOQK3lKLAbhdhIKfWZS6258kiAfzCZg6V4gZiOn0UBIAcgn63BYehK50Ke2xQxQH+3FUoqJUtJMIlYhLxAfxVJu09xiWENuMxCrUaNhCBBgAOAVfjALa5TLAAAAAElFTkSuQmCC) no-repeat 7% center;
+background-size: 15px 13px;
+
+}
+
+input[type=checkbox]:checked:hover + span {
+color: rgba(255,255,255,0.5);
+background: #dd5244 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAS5JREFUeNq8110OgjAMAGBGvIY3VESjt9jPg95PT+LccBIZ7dYOWJPGB+g+Ymg3hLW2QeLkcu/y2pSFdvl0eQevehjI3uXbfkMh96TShFq/xhG6J4faAtxEtSBOQTm4QWpnOBWl4CZT69fuYpiCpnBDrB1xLhrjgoFO8F1oGcFslUv4bV32zFoxmOHJta0XMn65dC0UaiddA8UGiN4axeC1cUkdmWviEls/NwL1FqjPNtNvoimPdC3yRCUTiTXbt0R/oSnw2iiK10BBvBY6w2uiE3xJr8oFtcrvxy/fVcyeVdGx98yotcOxN/znHeMUIhdMOG8c4reagssF43VEoT5O4ZJwvNUUFJtcEE5BMXyGpnanf5yDxjiI+hSJj7YunEBvhbuTCh9tD+jiR4ABAJ0SrJgNr1UAAAAAAElFTkSuQmCC) no-repeat 7% center;
+background-size: 15px 15px;
+
+}
