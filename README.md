@@ -1,3 +1,3 @@
-## Spring Mantra
+## Spring Mantra Sync
 File synchronization across devices
 
